@@ -1,0 +1,18 @@
+# Terraform local y plugins
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Estados de Workspaces
+terraform.tfstate.d/
+
+# Variables sensibles y logs
+*.tfvars.json
+*.log
+.env
+
+# Editores
+.idea/
+.vscode/
