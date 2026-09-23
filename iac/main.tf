@@ -80,7 +80,7 @@ resource "docker_container" "database" {
 }
 
 
-# Salidas (Outputs)
+# Salidas (Outputs)cd iac
 output "frontend_url" {
   value = "http://localhost:${var.frontend_port[terraform.workspace]}"
 }
